@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.blog{
+    margin-top: 15px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+.blog_text p{
+    margin: 180px auto;
+    width: 470px ;
+    text-align: center;
+    font-family: "LXGW WenKai TC", cursive;
+}
+@media(max-width: 768px){
+    .blog_text p{
+        margin-top: 100px;
+        width: 280px;
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+header{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    height: 20px;
+}
+
+ul li{
+    margin: 20px;
+    list-style: none;
+}
+ul{
+    text-align: center;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+}

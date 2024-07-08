@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=LXGW+WenKai+TC&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Sundanese:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px 0;
+}
+.right ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 0 90px;
+}
+.right ul li{
+    font-family: "Noto Sans Sundanese", sans-serif;
+    list-style: none;
+    margin: 0 15px;
+}
+.left_div h3{
+    font-family: "Raleway", sans-serif;
+    color: black;
+}
+
+.right.active{
+    display:none;
+}
+
+.left_div div{
+    display: none;
+}
+
+@media(max-width: 768px){
+    header{
+        width: 100%;
+    }
+
+    .right ul{
+        margin: auto;
+    }
+    .right ul{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .right ul li{
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 401px) {
+    .right {
+        width: 300px;
+        position: absolute;
+        right: 0;
+        top:  90px;
+        height: 87.5%;
+        background-color: rgb(187, 162, 210);
+        /* display: none; */    
+    }
+
+    .right ul {
+        display: block;
+        line-height: 70px;
+        position: relative;
+        right: 70px;
+        top: 50px;
+    }
+    .right ul li a{
+        color: white ;
+    }
+
+    .left_div{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+    }
+
+    .left_div div{
+        display: block;
+    }
+}
+
+
